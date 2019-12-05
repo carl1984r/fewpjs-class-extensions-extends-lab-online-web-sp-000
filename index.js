@@ -22,5 +22,5 @@ class Triangle extends Polygon {
     const c = this.sides[2];
     return (this.countSides === 3 && (a + b > c) && (a + c > b) && (b + c > a));
   };
-  
+
 }
