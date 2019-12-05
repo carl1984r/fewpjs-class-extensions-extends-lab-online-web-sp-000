@@ -18,4 +18,4 @@ class Polygon {
 class Triangle {
 
 
-};
+}
