@@ -16,6 +16,11 @@ class Polygon {
 }
 
 class Triangle extends Polygon {
-
-
+  get isValid() {
+    const a = this.sides[0];
+    const b = this.sides[1];
+    const c = this.sides[2];
+    return (this.countSides === 3 && (a + b > c) && (a + c > b) && (b + c > a));
+  };
+  
 }
