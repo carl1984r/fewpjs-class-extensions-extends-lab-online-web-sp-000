@@ -14,3 +14,8 @@ class Polygon {
   };
 
 }
+
+class Triangle {
+
+  
+}
