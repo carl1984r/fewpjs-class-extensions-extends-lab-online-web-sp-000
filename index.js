@@ -32,4 +32,12 @@ class Square extends Polygon {
     return this.sides[1] * this.sides[2];
   };
 
+  get isValid() {
+    const a = this.sides[0];
+    const b = this.sides[1];
+    const c = this.sides[2];
+    const d = this.sides[3];
+    return (a === b) && (a === c) && (a === d) && (b === c) && (b === d) && (c === d);
+  };
+
 }
