@@ -17,5 +17,5 @@ class Polygon {
 
 class Triangle {
 
-  
+
 }
